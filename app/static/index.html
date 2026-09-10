@@ -1,0 +1,7 @@
+<!doctype html>
+<html lang="es">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>CV Match AI</title><link rel="stylesheet" href="/static/styles.css"></head>
+<body><main><header><span class="eyebrow">ANÁLISIS DE TALENTO</span><h1>Encuentra la compatibilidad<br>entre talento y oportunidad.</h1><p>Compara evidencia del CV con los requisitos del cargo mediante una puntuación trazable.</p></header>
+<section class="panel"><div class="inputs"><label>Currículum vitae <small>mínimo 100 caracteres</small><textarea id="cv" placeholder="Pegue aquí el CV anonimizado..."></textarea></label><label>Perfil del cargo <small>mínimo 100 caracteres</small><textarea id="job" placeholder="Pegue aquí la oferta o perfil..."></textarea></label></div><div class="actions"><button id="examples">Cargar ejemplo</button><button class="primary" id="analyze">Analizar compatibilidad</button></div><p id="error"></p></section>
+<section id="result" class="result hidden"><div class="score"><div id="score">0</div><span>compatibilidad</span></div><div><h2 id="summary"></h2><div class="grid"><article><h3>Fortalezas</h3><ul id="strengths"></ul></article><article><h3>Brechas</h3><ul id="gaps"></ul></article></div><article><h3>Recomendaciones</h3><ol id="recommendations"></ol></article><p id="meta"></p></div></section></main><script src="/static/app.js"></script></body></html>
+

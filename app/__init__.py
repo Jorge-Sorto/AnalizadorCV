@@ -1,0 +1,1 @@
+"""CV Job Analyzer application."""
