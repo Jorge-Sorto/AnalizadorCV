@@ -6,7 +6,7 @@ on:
     branches: [main]
 jobs:
   quality:
-    runs-on: [self-hosted]
+    runs-on: [Ubuntu-latest]
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
