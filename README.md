@@ -24,6 +24,7 @@ Cuantificación objetiva: Calcular métricas de similitud para generar un porcen
 Retroalimentación estructurada: Desglosar automáticamente la evaluación para exponer claramente las fortalezas detectadas y las brechas existentes, entregando datos procesables tanto al reclutador como al candidato.
 
 Mitigación de sesgos: Estandarizar la evaluación inicial enfocándose estrictamente en competencias técnicas y experiencia demostrable, reduciendo la intervención de sesgos cognitivos o fatiga humana en la primera línea de selección.
+
 ---
 
 ## 3. Usuarios o Beneficiarios
@@ -231,8 +232,4 @@ ruff==0.12.11
 OpenAI (gpt-5-mini)
 GitHub
 
-
-## Entrega académica pendiente
-
-Crear un repositorio GitHub, trabajar en al menos dos ramas y dos PR, conservar ocho commits significativos, capturar pipeline rojo/verde, completar evidencias reales, desplegar y publicar el tag `v1.0.0`. Las plantillas no sustituyen evidencia ejecutada.
 
